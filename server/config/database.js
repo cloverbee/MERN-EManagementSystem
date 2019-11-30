@@ -3,7 +3,7 @@ const db = mongoose.connection;
 
 function init() {
   //mongoose.connect("mongodb://127.0.0.1:27017/employee");
-  mongoose.connect('mongodb://×××××:123456@cluster0-shard-00-00-qm0uv.gcp.mongodb.net:27017,cluster0-shard-00-01-qm0uv.gcp.mongodb.net:27017,cluster0-shard-00-02-qm0uv.gcp.mongodb.net:27017/2ndProject1?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
+  mongoose.connect('mongodb://×××××:123456@cluster0-shard-00-00-qm0uv.gcp.mongodb.net:27017,cluster*********.net:27017,cluster0-shard-00-02-qm0uv.gcp.mongodb.net:27017/2ndProject1?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true');
 
 }
 
